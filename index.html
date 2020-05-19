@@ -118,7 +118,7 @@
                         <i class="fa fa-wrench fa-stack-1x fa-inverse"></i>
                     </span>
                     <h4 class="service-heading">Tools</h4>
-                    <p class="text-muted">Redis · Android Studio<br>Adobe Photoshop & Dreamweaver</p>
+                    <p class="text-muted">Redis · Android Studio · Grafana<br>Adobe Photoshop & Dreamweaver</p>
                 </div>
                 <div class="col-sm-4">
                     <span class="fa-stack fa-4x">
@@ -173,6 +173,20 @@
             </div>
 
             <div class="row">
+                <div class="col-md-6 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal9" class="portfolio-link" data-toggle="modal">
+                        <!--<div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>-->
+                        <img src="img/portfolio/uber2.jpg" class="img-responsive" alt="" style="width:500px;height:250px;">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Software Engineering Intern</h4>
+                    </div>
+                </div>
+
                 <div class="col-md-6 col-sm-6 portfolio-item">
                     <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
                         <!--<div class="portfolio-hover">
@@ -407,7 +421,7 @@
                 <div class="col-md-4">
                 </div>
                 <div class="col-md-4">
-                    <span class="copyright"> Last Edited: July 31, 2019</span>
+                    <span class="copyright"> Last Edited: May 19, 2020</span>
                 </div>
             </div>
         </div>
@@ -493,6 +507,56 @@
                 </div>
             </div>
         </div>    
+
+
+        <!-- Portfolio Modal 9 -->
+     <div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Software Engineering Intern</h2>
+                            <p class="item-intro text-muted">Uber (San Francisco, California) <br> Jan - Apr 2020</p>
+                            <p class="text-justify">In my latest position, I was on the Business Intelligence team at Uber, which creates and manages software solutions to analyze business data. I worked on an important internal service used by many departments which runs queries on Uber’s data. My project was designing and implementing a new queueing algorithm for queries to solve current issues in the existing system which include lack of a prioritization scheme and inefficient use of resources. I worked autonomously to determine new requirements, design two algorithm options, arrange design review meetings to select an option, create an implementation schedule and finally implement the new algorithm to production. It was a unique experience that allowed me to develop deeper technical knowledge with active exposure to project management in an industry application.</p>
+                            <ul style="list-style-type:disc" class ="text-justify">
+                                    <li>Collaborated with key stakeholders to determine requirements for new system</li>
+                                    <li>Developed two options for a new queuing algorithm, a <strong>round robin</strong> and <strong>multilevel</strong> queueing system</li>
+                                    <li>Scheduled and led multiple <strong>design meetings</strong> to discuss and select algorithm</li>
+                                    <li>Developed implementation schedule with milestones to monitor progress, tracked in <strong>Jira</strong></li>
+                                    <li>Coded round robin queueing system in <strong>Go</strong> with prioritization scheme, datasource resource management and scalable features</li>
+                                    <li>New system achieves fairness in queuing with use cases including VIP users and rogue users</li>
+                                    <li>Tracked action items against relevant developers for project dependent tasks</li>
+                                    <li><strong>Tested</strong> code locally, in staging, and in production to ensure new changes were successfully working</li>
+                                    <li>Wrote <strong>Bash</strong> scripts to perform <strong>load testing</strong> on new system</li>    
+                                    <li>Created metrics and new graphs in <strong>Grafana</strong> to monitor queue sizes, health, and operations</li> 
+                                    <li>Conducted phased implementation to roll out new changes to <strong>production</strong></li> 
+                                    <li>Presented and documented new service to show changes and future steps for project</li> 
+                                    <li>Received excellent co-op evaluation</li> 
+
+                            <br>
+                            </ul>
+                            <strong><p class="text-justify"> Notable Contributions: </p></strong>
+                            <ul style="list-style-type:disc" class ="text-justify">
+                                    <li>Created cancel bulk endpoint with username, email and datasource filters to cancel running queries in bulk</li>
+                                    <li>Updated frontend Grafana dashboard for staging environment</li>
+                                    </ul>
+                            <br>
+                            <img class="img-responsive img-centered" src="img/portfolio/roundrobin.png" alt="" style="width:600px;height:500px;">
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>    
 
     <!-- Portfolio Modal 2 -->
     <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
